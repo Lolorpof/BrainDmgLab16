@@ -7,7 +7,7 @@ int main(){
 	cout << "Before: ";
 	for(int i = 0; i<10; i++) cout << data[i] << " ";
 	sort(&data[0],&data[5]);
-	sort(&data[5],&data[10]);
+	sort(&data[5],&data[10]]);
 	cout << "\nAfter: ";
 	for(int i = 0; i<10; i++) cout << data[i] << " ";
 	return 0;
